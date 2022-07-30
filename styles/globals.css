@@ -24,7 +24,15 @@ h5 {
 }
 
 h1 {
-  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+#image {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  left: calc(50% - 11rem);
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 section {
@@ -77,6 +85,13 @@ a:hover {
   color: var(--color-bg);
 }
 
+.scroll__down {
+  /* right: -2.3rem; */
+  /* bottom: 5rem; */
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
 img {
   display: block;
   width: 100%;
@@ -100,6 +115,11 @@ img {
 
   section > h2 {
     margin-top: 2rem;
+  }
+
+  #scroll__down,
+  #header-socials {
+    display: none;
   }
 }
 
