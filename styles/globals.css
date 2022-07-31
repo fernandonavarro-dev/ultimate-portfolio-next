@@ -27,6 +27,16 @@ h1 {
   font-size: 2.5rem;
 }
 
+#nav {
+  /* width: max-content; */
+  /* background: transparent; */
+}
+
+#active {
+  background: #1c1c23;
+  color: white;
+}
+
 #image {
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;

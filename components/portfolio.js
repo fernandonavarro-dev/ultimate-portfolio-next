@@ -1,5 +1,9 @@
 import React from 'react';
 
 export default function Portfolio() {
-  return <div>Portfolio</div>;
+  return (
+    <div id="portfolio" className="flex h-screen mt-32">
+      Portfolio
+    </div>
+  );
 }

@@ -29,22 +29,22 @@ export default function Header() {
       <a
         href="#contact"
         id="scroll__down"
-        className="absolute rotate-90 right-0 bottom-12"
+        className="absolute rotate-90 right-10 bottom-16"
       >
         Scroll Down
       </a>
 
       <div
         id="header-socials"
-        className="flex flex-col items-center gap-3 absolute left-0 bottom-12 "
+        className="flex flex-col items-center gap-3 absolute left-20 bottom-4"
       >
-        <a href="https://linkedin.com" target="__blank">
+        <a className="h-7 text-xl" href="https://linkedin.com" target="__blank">
           <BsLinkedin />
         </a>
-        <a href="https://Github.com" target="__blank">
+        <a className="h-7 text-xl" href="https://Github.com" target="__blank">
           <FaGithub />
         </a>
-        <div className=" h-8 w-0.5 bg-primary " />
+        <div className=" h-12 w-0.5 bg-primary " />
       </div>
     </div>
   );

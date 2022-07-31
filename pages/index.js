@@ -1,14 +1,14 @@
 import Head from 'next/head';
 // import Image from 'next/image';
-import About from '../components/about';
-import Contact from '../components/contact';
-import Experience from '../components/experience';
-import Footer from '../components/footer';
-import Header from '../components/header';
-import Nav from '../components/nav';
-import Portfolio from '../components/portfolio';
-import Services from '../components/services';
-import Testimonials from '../components/testimonials';
+import About from '../components/About';
+import Contact from '../components/Contact';
+import Experience from '../components/Experience';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Nav from '../components/Nav';
+import Portfolio from '../components/Portfolio';
+import Services from '../components/Services';
+import Testimonials from '../components/Testimonials';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
